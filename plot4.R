@@ -30,7 +30,7 @@ png("plot4.png", height = 480, width=480)
 
 #Set global graphical parameters using the par function to set the number 
 #of plots and adjust the text size and margins
-par(mfrow = c(2,2), mar = c(1,2.5,1,1), mgp= c(1.5,0.5,0), ps = 12)
+par(mfrow = c(2,2), mar = c(5.0,4.0,4.0,1), mgp= c(2.5,0.5,0), ps = 12)
 
 #Use plot function to create the first line plot with the arguments to reproduce the 
 #image on the course website
